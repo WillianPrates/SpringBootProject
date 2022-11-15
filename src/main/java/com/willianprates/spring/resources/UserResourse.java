@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.willianprates.spring.entities.User;
-import com.willianprates.spring.services.UserServices;
+import com.willianprates.spring.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
 public class UserResourse {
 	
 	@Autowired
-	private UserServices service;
+	private UserService service;
 	
 
 	@GetMapping

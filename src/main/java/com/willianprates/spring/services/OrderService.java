@@ -10,7 +10,7 @@ import com.willianprates.spring.entities.Order;
 import com.willianprates.spring.repositories.OrderRepository;
 
 @Service
-public class OrderServices {
+public class OrderService {
 	
 	@Autowired
 	private OrderRepository repository;

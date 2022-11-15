@@ -10,7 +10,7 @@ import com.willianprates.spring.entities.User;
 import com.willianprates.spring.repositories.UserRepository;
 
 @Service
-public class UserServices {
+public class UserService {
 	
 	@Autowired
 	private UserRepository repository;
