@@ -11,7 +11,7 @@ A aplicação consiste em um Web Service Spring Boot com Hibernate, aceitando co
 # Tecnologias utilizadas
 ## Back end
 - Java
-- Spring Boot
+- Spring Boot 3
 - JPA / Hibernate
 - Maven
 
